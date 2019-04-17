@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义统计波浪线View的属性 -->
+    <declare-styleable name="StatisticsViewAttrs">
+        <!-- 统计流线图高度 -->
+        <attr name="statistics_view_height" format="dimension" />
+        <!-- 每日数据展示所占的宽度 -->
+        <attr name="per_date_width" format="dimension" />
+        <!-- 日期文本的字体大小 -->
+        <attr name="date_text_size" format="dimension" />
+        <!-- 日期文本的高度 -->
+        <attr name="date_text_view_height" format="dimension" />
+        <!-- 底部文字显示间隔 -->
+        <attr name="is_big_interval_at_bottom_text" format="boolean" />
+        <!-- 图表背景色 -->
+        <attr name="path_view_theme_color" format="color" />
+        <!-- 图表宽度是否和手机屏目一致 -->
+        <attr name="is_width_match" format="boolean" />
+    </declare-styleable>
+
+</resources>

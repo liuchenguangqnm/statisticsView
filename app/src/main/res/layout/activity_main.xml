@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="com.sunshine.appdemo.MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <com.sunshine.appdemo.view.StatisticsViewGroup
+            android:id="@+id/ll_dates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#11E0F2"
+            app:is_big_interval_at_bottom_text="false"
+            app:is_width_match="true"
+            app:path_view_theme_color="#11E0F2" />
+
+    </HorizontalScrollView>
+
+</RelativeLayout>
